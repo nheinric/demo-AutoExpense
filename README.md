@@ -2,14 +2,14 @@ Description
 ================
 A testbed Scala app for \*TDD testing with Cucumber/JUnit/ScalaTest/etc.
 
-Installation in Eclipse
+Installation in Eclipse (Juno, with Scala IDE)
 ================
  1. Import to Eclipse (as a Maven project)
  1. Right-click Project -> Configure -> Add Scala Nature
 
 Run Cucumber tests in Eclipse
 ================
- 1. Right-click a .feature file -> Run As -> Run Configurations
+ 1. Right-click a src/test/resources/\*.feature file -> Run As -> Run Configurations
  1. Make new 'Java Application' config
     1. Main -> Main class: cucumber.api.cli.Main
     1. Arguments -> Program arguments:
