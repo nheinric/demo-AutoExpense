@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nheinric</groupId>
+  <artifactId>ae</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>AutoExpense</name>
+  <description>As manager of Department X
+I want a centralized, e-mail based expense report aggregator
+So that I can manage my employee's expense reports more easily</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>info.cukes</groupId>
+  		<artifactId>cucumber-junit</artifactId>
+  		<scope>test</scope>
+  		<version>1.1.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>info.cukes</groupId>
+  		<artifactId>cucumber-scala</artifactId>
+  		<scope>test</scope>
+  		<version>1.1.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.11</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.scalatest</groupId>
+  		<artifactId>scalatest_2.10.0-RC5</artifactId>
+  		<version>2.0.M5-B1</version>
+  	</dependency>
+  </dependencies>
+</project>
