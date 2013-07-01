@@ -16,7 +16,7 @@ Install the m2eclipse-scala packages
 
 Install this demo (Juno)
 ================
- 1. `git clone https://github.com/nheinric/demo-AutoExpense.git`
+ 1. In your Eclipse workspace directory: `git clone https://github.com/nheinric/demo-AutoExpense.git`
  1. File -> New -> Scala Project
  1. Set 'Name' to 'demo-AutoExpense'
  1. Click 'Finish'
